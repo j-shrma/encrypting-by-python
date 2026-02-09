@@ -1,0 +1,113 @@
+===============================================
+  JAI'S ENCRYPTION SYSTEM - USER GUIDE
+===============================================
+
+WHAT IS THIS PROGRAM?
+---------------------
+This is a text encryption/decryption tool that converts letters and symbols
+into numerical codes using a custom encryption algorithm.
+
+
+HOW TO USE THE PROGRAM:
+-----------------------
+
+1. RUN THE PROGRAM:
+   - Double-click encryption.exe (or run: python encryption.py)
+
+2. CHOOSE AN OPTION FROM THE MENU:
+   
+   Option 1 - Encrypt Message:
+   ---------------------------
+   - Type your message directly
+   - Get encrypted numbers instantly
+   - Example: "HELLO" → "3251232353"
+
+   Option 2 - Encrypt from a file:
+   --------------------------------
+   - Prepare a .txt file with your message
+   - Enter the file path when asked
+   - A new file will be created: filename_encrypted.txt
+   - Example: If you encrypt "message.txt", you get "message_encrypted.txt"
+
+   Option 3 - Decrypt Message:
+   ---------------------------
+   - Enter encrypted numbers
+   - Get the original message back
+   - Example: "3251232353" → "Hello"
+
+   Option 4 - Decrypt to a file:
+   -----------------------------
+   - Have an encrypted .txt file ready
+   - Enter the file path when asked
+   - A new file will be created: filename_decrypted.txt
+   - Example: "message_encrypted.txt" → "message_decrypted.txt"
+
+   Option 5 - Exit:
+   ----------------
+   - Closes the program
+
+
+FILE PATH EXAMPLES:
+-------------------
+✅ Full path: C:\Users\YourName\Desktop\myfile.txt
+✅ Same folder: myfile.txt (if file is in same folder as .exe)
+✅ Relative path: ..\Documents\myfile.txt
+
+❌ Invalid: C:\Users\YourName\Desktop\myfile (missing .txt extension)
+
+
+SUPPORTED CHARACTERS:
+---------------------
+✅ Letters: A-Z (case insensitive)
+✅ Space
+✅ Symbols: . ! @ # $ % , ? + - * /
+
+❌ Numbers are NOT supported in the message (will cause an error)
+
+
+EXAMPlE USAGE:
+--------------
+1. Create a file called "secret.txt" with text: "HELLO WORLD"
+2. Run the program
+3. Select option 2
+4. Enter: secret.txt
+5. Result: "secret_encrypted.txt" will be created with: "32512323530025534224234441"
+6. To decrypt, select option 4 and enter: secret_encrypted.txt
+7. Result: "secret_decrypted.txt" will contain: "Hello world"
+
+
+TIPS:
+-----
+• Always keep a backup of your original files
+• Encrypted files contain only numbers
+• Decrypted text will be in sentence case (first letter capitalized)
+• Make sure file paths are correct (check spelling and location)
+
+
+TROUBLESHOOTING:
+----------------
+Error: "Only letters are allowed"
+→ Your message contains unsupported characters (like numbers)
+
+Error: "Invalid file path"
+→ File doesn't exist or path is wrong. Check the location.
+
+Error: "Encrypted text must have an even number of digits"
+→ The encrypted code is corrupted or incomplete
+
+Error: "Invalid encrypted code"
+→ The numbers don't match any valid encryption code
+
+
+NEED HELP?
+----------
+Make sure:
+1. Your text files are saved in .txt format
+2. File paths are correct
+3. You're using only supported characters
+4. The .exe and your text files are accessible
+
+
+===============================================
+        Enjoy using the Encryption System!
+===============================================
