@@ -7,12 +7,12 @@ def test_encryption_basic():
     """Test basic encryption functionality."""
     assert encryption("HELLO") == "3251232353"
     assert encryption("A") == "11"
-    assert encryption("TEST") == "44515134"
+    assert encryption("TEST") == "44513444"
 
 
 def test_encryption_with_space():
     """Test encryption with spaces."""
-    assert encryption("HELLO WORLD") == "32512323530025532423"
+    assert encryption("HELLO WORLD") == "3251232353002553242341"
 
 
 def test_decryption_basic():
